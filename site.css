@@ -1,0 +1,440 @@
+a {
+	color: #6cb6ff;
+	font-weight: bold;
+	text-decoration: none;
+	-moz-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
+blockquote {
+	padding-left: 24px;
+	margin: 0 auto 24px;
+	color:#403f3f;
+	border-left: 2px solid #6cb6ff;
+	font-family: "Noto Sans", sans-serif;
+}
+
+pre:before {
+	content: '\f462';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 24px;
+	height: 100%;
+	background: #6cb6ff;
+	color: #fff;
+	font-family: "Genericons";
+	font-size: 16px;
+	text-align: center;
+}
+
+ins {
+	padding: 0 4px;
+	background: #6cb6ff;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+a.button,
+a.button-minimal {
+	display: inline-block;
+	padding: 10px 22px;
+	border: 2px solid #6cb6ff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+a.button {
+	background: #00ccff;
+	color: #fff;
+	text-shadow: none;
+}
+a.button:hover,
+a.button:focus,
+a.button:active {
+	background: #242424;
+	border-color: #242424;
+	color: #fff;
+}
+a.button-minimal {
+	color: #00ccff;
+}
+a.button-minimal:hover,
+a.button-minimal:focus,
+a.button-minimal:active {
+	background: #6cb6ff;
+	border-color: #6cb6ff;
+	color: #fff;
+}
+
+.footer-widget-area .menu-item .dropdown-toggle:hover,
+.site-content .menu-item .dropdown-toggle:hover {
+	background: #6cb6ff;
+	border-color: #21759b;
+}
+
+ul[id^="menu-social"] a:before {
+	color: #6cb6ff;
+}
+
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+.format-link .entry-title a:hover:after,
+.format-link .entry-title a:focus:after,
+.format-link .entry-title a:active:after {
+	color: #6cb6ff;
+}
+
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: #6cb6ff;
+}
+
+.more-link:after {
+	content: '';
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid #6cb6ff;
+	vertical-align: baseline;
+	-moz-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
+.hero {
+	padding: 24px;
+	background-color: #6cb6ff;
+}
+
+.featured-page a.post-thumbnail:hover img,
+.grid a.post-thumbnail:hover img {
+	border-color: #6cb6ff;
+}
+
+.comment .comment-reply-link:after {
+	content: '';
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid #6cb6ff;
+	vertical-align: baseline;
+	-moz-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+.content-area{
+	padding-top:30px;
+}
+
+/*******************/
+/* Menu principal */
+/*****************/
+.main-navigation{
+	margin-top:0px;
+	margin-bottom: 0px;
+	color : #2a6496;
+}
+
+.main-navigation ul ul a {
+	padding: 10px 8px;
+	width: 244px;
+	background: #6cb6ff;
+	border: 0;
+}
+.main-navigation ul ul a:hover {
+	background: #218eff;
+}
+
+.main-navigation ul ul li {
+	display: block;
+	margin-right: 0;
+	border-bottom: 1px solid #21759b;
+}
+.main-navigation ul ul.toggle-on {
+	left: auto;
+}
+.main-navigation ul ul ul.toggle-on {
+	left: 100%;
+	border-top: 1px solid #21759b;
+}
+.menu-primary .sub-menu {
+	padding-top: 0;
+	margin-top: 0;
+	border: 1px solid #21759b;
+	border-bottom: 0;
+}
+
+.main-navigation .menu-item a{
+	padding-top:0px;
+}
+.main-navigation .menu-item .dropdown-toggle,
+.main-navigation .menu-item .dropdown-toggle:focus,
+.hero-image .main-navigation .menu-item .dropdown-toggle:focus{
+		background: #2a6496;
+		border-color: #21759b;
+	}
+.main-navigation .menu-item .dropdown-toggle,
+.hero-image .main-navigation .menu-item .dropdown-toggle {
+	background: #2a6496;
+	width:26px;
+	height:26px;
+	margin-top:-18px;
+	}
+
+.main-navigation .menu-item .dropdown-toggle:hover,
+.hero-image .main-navigation .menu-item .dropdown-toggle:hover {
+		background: #6cb6ff;
+	}
+/***********/
+/* Header */
+/*********/
+.site-top-content {
+	padding: 6px 24px;
+	background: #218eff;
+	color : #fff;
+	font-size: 0.8em;
+	line-height: 1.71429em;
+	text-align: left;
+}
+
+.hero-image .site-header {
+    position: relative;
+    z-index: 2;
+		height : 90px;
+    margin-bottom: -92px;
+    background: rgba(0, 0, 255, 0);
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.site-branding {
+	height : 50px;
+	margin-left:20px;
+	width : 470px;
+	background-image: url(http://ummisco.ucad.sn/wp-content/uploads/2019/05/site-branding-background_2.1.1.png)
+}
+
+.site-title{
+	margin-top : 10px
+}
+.site-title a, .site-title a:hover, .site-title a:focus, .site-title a:active {
+    color: #2a6496;
+}
+
+.hero .page-title{
+	display : none;
+}
+
+
+.site-description, .site-title {
+  font-size: 200%;
+}
+
+/*****************/
+/** FRONT PAGE **/
+/***************/
+
+.content-area .entry-content h2{
+	font-size:16px;
+	font-weight:bold;
+	color:#428bca;
+	margin-bottom:5px;
+	margin-top:3px;
+}
+
+/*********************/
+/** TEXTE DEFILANT **/
+/*******************/
+
+.content-area marquee{
+	color:red;
+}
+
+/***************/
+/** ARTICLES **/
+/*************/
+.content-area .frontpage-article{
+	font-family : "Noto Sans", sans-serif;
+	height:170px;
+	box-sizing:border-box;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-color:#f1f0f0;
+	font-size:0.78em;
+}
+
+.content-area .frontpage-article p{
+	margin-bottom:0px;
+}
+
+.content-area .frontpage-article .article-title h2{
+	font-size:16px;
+	font-weight:bold;
+	color:#428bca;
+	margin-bottom:5px;
+	margin-top:3px;
+}
+.content-area .image-article{
+	width : 250px;
+}
+
+.content-area .texte-article{
+	width : 450px;
+}
+
+
+/*************************/
+/** Footer Widget Area **/
+/***********************/
+.footer-widget-area {
+	background: #f1f0f0;
+	padding-top:30px;
+}
+
+.site-logo {
+	display: block;
+	margin: 24px auto;
+	width: auto;
+	max-height: 96px;
+}
+
+.footer-widget-area .footer-widget .external-links {
+	font-size: 1.0em;
+}
+
+.footer-widget-area .footer-widget .textwidget{
+	font-size:0.80em;
+}
+
+/* Site-footer*/
+.site-footer{
+	background:#403f3f;
+	color:#d2cfcf
+}
+
+/**************/
+/** WIDGETS **/
+/************/
+
+.widget {
+	padding-top: 20px;
+	padding-bottom : 20px;
+	border-top: 2px solid #f1f0f0;
+}
+
+.widget-area{
+	padding-top:40px;
+}
+
+.widget-area .menu-evenements-container {
+	font-size : 0.85em;
+}
+
+.widget-area .menu-evenements-container .menu .menu-item{
+	text-transform:none;
+}
+
+.widget-area .widget_nav_menu{
+	padding:0px;
+	padding-bottom:0px;
+}
+
+.widget-area .widget_nav_menu .menu{
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.widget-title,
+.widgettitle {
+	margin: 0 auto 10px;
+	margin-top:5px;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	font-weight:normal;
+	line-height: 1.5em;
+	color:#757575
+}
+
+/*medias en sidebar*/
+.widget-area .widget.widget_media_image{
+	padding-top:0px;
+}
+
+.widget-area .widget.widget_media_video{
+	padding-top:0px;
+}
+
+/* search field*/
+.search-field, .search-submit {
+  margin-bottom: 0px;
+	margin-top:0px;
+}
+.widget-area .search-field{
+	width:310px;
+}
+
+/*************/
+/** AGENDA **/
+/***********/
+.widget-area .container{
+	padding:0px;
+}
+.agenda {
+	width : 310px;
+}
+
+/* Dates */
+.agenda .agenda-date {
+  width: 110px;
+  font-size: 15px;
+  float: left;
+  text-align: right;
+  margin-right: 0px;
+	margin-left : 0px;
+}
+.agenda .agenda-date .hour {
+  padding-top:30px;
+	padding-bottom: 30px;
+}
+
+/* Cours */
+.agenda .agenda-events {
+	width : 120px;
+	color : #2a6496;
+}
+/* Cours */
+.agenda .agenda-events .intervenant , .lieu{
+	font-size:0.85em;
+	float:none;
+	margin-left:10px;
+}
+.agenda .agenda-events .agenda-event {  }
